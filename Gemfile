@@ -218,3 +218,5 @@ group :test do
   # https://github.com/thekompanee/fuubar
   gem 'fuubar'
 end
+
+gem 'coveralls', require: false
