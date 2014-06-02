@@ -6,4 +6,4 @@
 
 Sulphur Social Forum/Activities
 
-![Sulphur logo](https://github.com/vforge/sulphur/blob/master/public/mediumtile.png)
+![Sulphur logo](https://raw.githubusercontent.com/vforge/sulphur/master/public/mediumtile.png)
