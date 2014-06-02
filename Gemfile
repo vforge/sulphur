@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'pg', require: false
+gem 'mysql2', require: false
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
@@ -219,4 +221,5 @@ group :test do
   gem 'fuubar'
 end
 
+# coverails
 gem 'coveralls', require: false
