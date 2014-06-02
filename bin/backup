@@ -1,0 +1,6 @@
+#!/bin/bash
+# debian: /etc/crontab: 0 */4   * * *   root <this file>
+TIMESTAMP=`/bin/date +\%Y\%m\%d-\%H\%M\%S`
+BASEDIR=$(dirname $0)
+
+7z a -bd $BASEDIR/../../.backup/sulphur-$TIMESTAMP.7z $BASEDIR -xr@$BASEDIR/.BackupExclude

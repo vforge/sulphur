@@ -1,0 +1,38 @@
+pl:
+  world:
+    cw:
+      common_name: !!null
+      name: Curaçao
+      official_name: Curaçao
+    ec:
+      common_name: !!null
+      name: Ecuador
+      official_name: Republic of Ecuador
+    ss:
+      common_name: !!null
+      name: South Sudan
+      official_name: Republic of South Sudan
+    bq:
+      common_name: !!null
+      name: Bonaire, Sint Eustatius and Saba
+      official_name: Bonaire, Sint Eustatius and Saba
+    to:
+      common_name: !!null
+      name: Tonga
+      official_name: Kingdom of Tonga
+    in:
+      common_name: !!null
+      name: India
+      official_name: Republic of India
+    us:
+      common_name: !!null
+      name: United States
+      official_name: United States of America
+    fo:
+      common_name: !!null
+      name: Faroe Islands
+      official_name: !!null
+    sx:
+      common_name: !!null
+      name: Sint Maarten (Dutch part)
+      official_name: Sint Maarten (Dutch part)

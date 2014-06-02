@@ -1,0 +1,6 @@
+en:
+  # global strings (such as app names, words, copyrights and so on)
+  global:
+    brand: Sulphur
+    title: Sulphur
+    copyright_line: All text and design &copy; 2013-%{year} Sulphur.com. All rights reserved.

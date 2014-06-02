@@ -1,0 +1,17 @@
+#!/bin/bash
+echo Removing DB
+rm -f db/*.sqlite3
+echo Creating DB
+rake db:create
+echo Migrating DB
+rake db:migrate
+echo Seeding db
+rake db:seed
+echo Removing Annotations
+annotate -d
+echo Adding Annotations
+annotate -i -m
+
+echo Preparing TestDB
+rake db:test:prepare
+

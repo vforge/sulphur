@@ -1,0 +1,34 @@
+en:
+  # activerecord:
+  #   models:
+  #     user: "Użytkownik"
+  #   attributes:
+  #     user:
+  #       password: "Hasło"
+  #       password_digest: "Powtórzenie hasła"
+  #       date_of_birth: "Data urodzenia"
+  #       date_of_birth2: "Data urodzenia (2)"
+  #       agreed_to_statute: "Zapoznanie się z regulaminem"
+  #     personal_ad:
+  #       content: "Ogłoszenie"
+  #   errors:
+  #     models:
+  #       user:
+  #         attributes:
+  #           nick:
+  #             blank: "nie może być pusty"
+  #             taken: "jest już zajęty"
+  #             too_short: "jest za krótki (przynajmniej %{count} znaków)"
+  #             too_long: "jest za długi (co najmniej %{count} znaków)"
+  #           email:
+  #             blank: "nie może być pusty"
+  #             taken: "jest już zajęty"
+  #             invalid: "jest nieprawidłowy"
+  #           agreed_to_statute:
+  #             inclusion: "nie jest zaznaczone"
+  # helpers:
+  #   label:
+  #     exercise:
+  #       video: Link do wideo
+  #       name: Nazwa
+  #       description: Opis
