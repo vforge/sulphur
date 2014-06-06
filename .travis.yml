@@ -8,7 +8,8 @@ env:
   - DB=mysql
   - DB=postgresql
 script:
-  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+  - bundle exec rspec --no-drb --format progress spec/
 before_script:
   - mysql -e 'create database sulphur_test'
   - psql -c 'create database sulphur_test' -U postgres
+  - RAILS_ENV=test bundle exec rake --trace db:migrate test
