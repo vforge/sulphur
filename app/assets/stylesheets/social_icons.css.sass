@@ -1,0 +1,39 @@
+@import social_colors
+
+ul.social
+	list-style: none
+	li
+		display: inline-block
+		background-color: rgba(255, 255, 255, 0)
+		margin: 15px
+		border-radius: 50%
+		transition-duration: .4s
+		font-size: 20px
+		border: 1px solid rgba(#555555, .5)
+		a
+			color: #555555
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+			height: 40px
+			width: 40px
+			transition-duration: .2s
+			&, &:hover, &:active
+				text-decoration: none
+
+			&:hover
+				color: #ffffff
+
+		&:hover
+			&.facebook
+				background: $facebook-color
+				border-color: $facebook-color
+			&.pinterest
+				background: $pinterest-color
+				border-color: $pinterest-color
+			&.twitter
+				background: $twitter-color
+				border-color: $twitter-color
+			&.rss
+				background: $rss-color
+				border-color: $rss-color

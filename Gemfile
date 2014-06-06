@@ -153,6 +153,7 @@ end
 group :development, :test do
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
+  #gem 'rspec-legacy_formatters'
   # guard needs those
   #require 'rbconfig'
   #gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
@@ -213,7 +214,9 @@ group :development, :test do
   
   # https://github.com/presidentbeef/brakeman
   # security tester: bundle exec brakeman
-  gem 'brakeman', require: false
+  gem 'brakeman'#, require: false
+
+  gem 'coveralls'#, require: false
 end
 
 group :test do
@@ -222,4 +225,4 @@ group :test do
 end
 
 # coverails
-gem 'coveralls', require: false
+

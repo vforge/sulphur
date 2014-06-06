@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'beta_signup/launching_page', as: :beta_launch
+
   get 'page/:id' => 'page#get', as: :page
 
   # The priority is based upon order of creation: first created -> highest priority.

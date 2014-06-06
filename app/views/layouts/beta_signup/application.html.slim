@@ -1,0 +1,16 @@
+html
+  head
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1.0" name="viewport"
+    title X
+    link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300"
+    = render 'layouts/parts/favicon'
+    = javascript_include_tag "modernizr"
+    = stylesheet_link_tag    "beta_singup", media: "all"
+    = javascript_include_tag "beta_signup"
+    = csrf_meta_tags
+  body
+    #application= yield
+    = render 'layouts/partials/social'
+
