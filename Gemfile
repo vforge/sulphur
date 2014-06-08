@@ -158,7 +158,7 @@ group :development, :test do
   #require 'rbconfig'
   #gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
   gem 'guard-rspec'
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
+  # gem 'rb-fsevent' if `uname` =~ /Darwin/
   gem 'factory_girl_rails'
   gem 'factory_girl-seeds'
   # https://github.com/stympy/faker
