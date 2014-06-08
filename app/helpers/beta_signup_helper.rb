@@ -1,2 +1,0 @@
-module BetaSignupHelper
-end

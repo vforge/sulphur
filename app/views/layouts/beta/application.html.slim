@@ -5,10 +5,10 @@ html
     meta content="width=device-width, initial-scale=1.0" name="viewport"
     title X
     link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300"
-    = render 'layouts/parts/favicon'
+    = render 'layouts/partials/favicon'
     = javascript_include_tag "modernizr"
-    = stylesheet_link_tag    "beta_singup", media: "all"
-    = javascript_include_tag "beta_signup"
+    = stylesheet_link_tag    "beta", media: "all"
+    = javascript_include_tag "beta"
     = csrf_meta_tags
   body
     #application= yield

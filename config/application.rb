@@ -26,6 +26,9 @@ module Sulphur
     # add app/assets/fonts to the asset path
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
+    # compile other csses too
+    config.assets.precompile += %w( beta.css beta.js )
+
     # rspec
     config.generators do |g|
       g.orm :active_record

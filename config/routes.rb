@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
-  get 'beta_signup/launching_page', as: :beta_launch
+  get 'beta' => 'beta#landing', as: :beta_landing
 
-  get 'page/:id' => 'page#get', as: :page
+  # get 'page/:id' => 'page#get', as: :page
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  get 'dashboard' => 'page#get', id: 1, as: :dashboard
+  # get 'dashboard' => 'page#get', id: 1, as: :dashboard
 
   # You can have the root of your site routed with "root"
-  root 'page#front'
+  root 'route#root'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
