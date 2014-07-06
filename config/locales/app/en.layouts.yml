@@ -1,0 +1,17 @@
+en:
+  layouts:
+    navigation:
+      global:
+        home: Home
+        messages: Messages
+        friends: Friends
+        search:
+          placeholder: Search....
+          action: Search
+        lang:
+          pl: Polski
+          en: English
+          ru: Русский
+          es: Español
+        signup: Signup
+        login: Login
