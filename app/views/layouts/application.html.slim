@@ -11,4 +11,5 @@ html
     = javascript_include_tag "application"
     = csrf_meta_tags
   body
-    #application= yield
+    /.global-navigation = render 'layouts/navigation/global'
+    #application = yield

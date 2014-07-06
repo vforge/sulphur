@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'beta' => 'beta#landing', as: :beta_landing
+  get 'home' => 'dashboard#index', as: :dashboard
 
   # get 'page/:id' => 'page#get', as: :page
 

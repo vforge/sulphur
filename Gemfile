@@ -46,7 +46,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'slim-rails'
 
 # v's gems
-gem 'lazyload-rails'
+# gem 'lazyload-rails'
 gem 'basic-scopes'
 gem 'untraceable-save'
 
@@ -224,5 +224,9 @@ group :test do
   gem 'fuubar'
 end
 
-# coverails
+# https://github.com/doabit/semantic-ui-sass
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+
+# https://github.com/42dev/bower-rails
+gem 'bower-rails', '~> 0.7.3'
 

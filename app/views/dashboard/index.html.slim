@@ -1,0 +1,36 @@
+div.ui.fixed.inverted.main.menu
+  a.item
+    i.home.icon
+    | Home
+  a.item
+    i.mail.icon
+    | Messages
+  a.item
+    i.user.icon
+    | Friends
+  div.right.menu
+    div.item
+      div.ui.icon.input
+        input type='Text' placeholder='Search...'
+        i.search.link.icon
+    div.ui.dropdown.item
+      input type='hidden' name='language' value='pl'
+      | Language
+      i.dropdown.icon
+      div.menu
+        a.item data-value="en"
+          = image_tag 'flags/us.png', title: 'English'
+        a.item data-value="pl"
+          = image_tag 'flags/pl.png', title: 'Polski'
+        a.item data-value="ru"
+          = image_tag 'flags/ru.png', title: 'Russian'
+        a.item data-value="es"
+          = image_tag 'flags/es.png', title: 'Spain'
+    div.item
+      div.ui.teal.button Signup
+    a.item
+      | Login
+
+section.main
+  | lorem ipsum
+
