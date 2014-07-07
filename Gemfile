@@ -217,6 +217,8 @@ group :development, :test do
   gem 'brakeman'#, require: false
 
   gem 'coveralls'#, require: false
+
+  gem 'rubocop'#, require: false
 end
 
 group :test do

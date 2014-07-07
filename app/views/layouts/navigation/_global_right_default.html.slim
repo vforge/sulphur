@@ -1,0 +1,14 @@
+div.item
+  div.ui.icon.input
+    input type='text' placeholder=t('.search.placeholder')
+    i.search.link.icon title=t('.search.action')
+  div.ui.dropdown.item
+    input type='hidden' name='language' value='en'
+    div.text = t(".lang.en")
+    i.dropdown.icon
+    div.menu
+      - ['en', 'pl', 'ru', 'es'].each do |lang|
+        a.item data-value=lang = t(".lang.#{lang}")
+  div.item
+    div.ui.black.button = t('.signup')
+  a.item = t('.login')
