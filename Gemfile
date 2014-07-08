@@ -219,6 +219,8 @@ group :development, :test do
   gem 'coveralls'#, require: false
 
   gem 'rubocop'#, require: false
+
+  gem 'magic_encoding'
 end
 
 group :test do
