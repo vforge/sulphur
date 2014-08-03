@@ -1,5 +1,9 @@
 require 'spec_helper'
 
-describe "beta/landing.html.slim" do
-  # pending "add some examples to (or delete) #{__FILE__}"
+describe 'beta/landing.html.slim' do
+  it 'displays beta signup form' do
+    render
+
+    rendered.should contain('input')
+  end
 end

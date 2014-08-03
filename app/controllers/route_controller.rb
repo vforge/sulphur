@@ -3,6 +3,6 @@ class RouteController < ApplicationController
 
   def root
     redirect_to dashboard_path
-    #redirect_to beta_landing_path
+    # redirect_to beta_landing_path
   end
 end
